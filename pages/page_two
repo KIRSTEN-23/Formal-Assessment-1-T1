@@ -26,9 +26,10 @@
         </div>
     </nav>
     <header>
-        <h2><i>Your Week 4 Formal Assessment</i></h2>
-        <h1>CREATING LAYOUTS USING BOOTSTRAP GRIDS</h1>
-        <p>For this Mid Term assessment, you will recreate what you see here as closely as you can.<br/>You will be required to use Bootstrap Grids for the layouts! You will hand in your Root Directory on Canvas.</p>
+        <h2><i>Welcome to Page Two!</i></h2>
+        <h1>LOOK MOM, MORE LAYOUTS!
+            BOOTSTRAP GRIDS CONTINUED</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aliquam molestias distinctio! Itaque illo corporis iusto voluptatibus dolor fugiat assumenda consectetur vero iste voluptates, nemo quibusdam dolores ratione quis tempore.</p>
         <b>Assessment Start:</b> 09:00 - 09/03/23<br/>
         <p><b>Assessment End:</b> 17:00 - 10/03/23</p>
         <p><b>Assessment Duration:</b> 32 Hours</p>
