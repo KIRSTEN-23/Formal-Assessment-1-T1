@@ -1,91 +1,145 @@
 nav{
-    width: 100%;
+    width:100%;
     height: 80px;
     background-color: grey;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+
+.nav-con{
+    width: 520px;
+    height: 60px;
+    float: right;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.nav-con li{
+    float: left;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
 }
 
 header{
     width: 100%;
     height: 600px;
     background-color: lightgrey;
-    padding-top: 250px;
+    padding-top: 150px;
     padding-left: 10%;
-    padding-right: 10%;
 }
 
-header p{
-    width: 400px;
-}
-
-.col-box{
+.intro{
     width: 100%;
-    height: 300px;
-    background-color: lightgrey;
-    text-align: center;
-    padding-top: 140px;
-    margin-top: 25px;
-}
-
-.round-image{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
+    height: 100px;
     background-color: grey;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.section-head{
+    text-align:center;
+    margin-top: 100px;
+}
+
+.title{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title-block{
+    width: 100%;
+    height: 250px;
+    background-color: lightgrey;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    border-radius: 5px;
 }
 
-.text{
-    padding-top: 50px;
-    padding-right: 10%;
-}
-
-text.p{
+.title-btn{
+    width: 150px;
+    height: 35px;
+    background-color: #2b2b2b;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    text-align: center;
     margin-top: 20px;
 }
 
-.text h2{
-    font-size: 25px;
-    font-style: italic;
+.dbl-50{
+    padding-left: 5%;
 }
 
-.button-group{
-    width: 300px;
-    height: 50px;
-}
-
-.button{
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    padding-top: 7px;
-    font-weight: bold;
-    float: left;
-    margin-top: 10px;
+.image-block-pg2{
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-top: 50px;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
-.normal{
+.cta{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #2b2b2b;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+footer{
+    height: 150px;
     background-color: #2b2b2b;
-    color: white
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px !important
 }
 
-.normal:hover{
+.nav-con li:hover{
+    background-color: #2b2b2b;
+    color: white;
+    curser: pointer;
+}
+
+.active{
+    background-color: #2b2b2b!important;
+    color: white;
+}
+
+.title-btn:hover{
     curser: pointer;
     background-color: white;
     color: #2b2b2b;
     border: 2px solid #2b2b2b;
-    padding-top: 5px !important;
+    padding-top: 3px !important;
 }
 
-.inverted{
-    border: 2px solid #2b2b2b:
-    padding-top: 5px !important;
-}
-
-.inverted:hover{
+.cta:hover{
     curser: pointer;
     background-color: #2b2b2b;
     color: white;
